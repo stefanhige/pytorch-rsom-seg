@@ -1,0 +1,7 @@
+## PYTHON
+__pycache__/
+*.py[cod]
+
+
+## IMAGES
+*.nii.gz
