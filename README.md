@@ -1,7 +1,5 @@
 # RSOM epidermis and vessel segmentation in pytorch
-<img src="./data/output/R_20200101000000_EX0001_combMIP_ax0.png" title="Skin segmentation Result. View from above, axis=0" height="200"/>
-<img src="./data/output/R_20200101000000_EX0001_combMIP_ax1.png" title="Skin segmentation Result. axis=1" height="200"/>
-<img src="./data/output/R_20200101000000_EX0001_combMIP_ax2.png" title="Skin segmentation Result. axis=2" height="200"/>
+<img src="./data/output/R_20200101000000_EX0001_combMIP_ax0.png" title="Skin segmentation Result. View from above, axis=0" height="200"/> <img src="./data/output/R_20200101000000_EX0001_combMIP_ax1.png" title="Skin segmentation Result. axis=1" height="200"/> <img src="./data/output/R_20200101000000_EX0001_combMIP_ax2.png" title="Skin segmentation Result. axis=2" height="200"/>
 
 ## Preface
 This reposity contains the python source code to perform segmentation 
