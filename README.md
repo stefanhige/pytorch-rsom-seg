@@ -12,13 +12,17 @@ of raster-scan optoacoustic mesoscopy (RSOM) data
 This repository was tested on Ubuntu 16.04.6 LTS and 
 18.04.3 LTS.
 
+It uses git large file storage.
+In order to work it correctly you need to install `git lfs` following [this manual for git lfs](https://git-lfs.github.com/).
+As an alternative, you can clone the repository as usual, and download the large files in `./data/input` and `./data/models` manually.
+
 A GPU with 16GiB memory is highly recommended.
 
 The main python dependencies are
 * nibabel
 * torch
 
-However, for a complete list see and run
+However, for a complete list, see and run
 
 `pip install -r requirements.txt`
 
