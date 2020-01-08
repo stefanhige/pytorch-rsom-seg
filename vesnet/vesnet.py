@@ -119,7 +119,7 @@ class VesNetBase():
                     non_blocking=self.non_blocking)
             
             debug('prediction, data shape:', data.shape)
-                
+            torch.cuda.empty_cache()                
             prediction = self.model(data)
             
             debug(torch.cuda.max_memory_allocated()/1e6, 'MB memory used') 
