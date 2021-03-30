@@ -34,8 +34,6 @@ def vessel_pipeline(dirs={'input':'',
                     pattern=None,
                     delete_tmp=False):
 
-    os.environ["CUDA_VISIBLE_DEVICES"]='3'
-
     tmp_layerseg_prep = os.path.join(dirs['output'], 'tmp', 'layerseg_prep')
     tmp_layerseg_out = os.path.join(dirs['output'], 'tmp', 'layerseg_out')
     tmp_vesselseg_prep = os.path.join(dirs['output'], 'tmp', 'vesselseg_prep')
